@@ -1,0 +1,59 @@
+body
+{
+	font-family: 'Roboto', sans-serif !important;
+	overflow-x: hidden;
+	margin-bottom: 0 auto;
+}
+
+.top-bar
+{
+	padding-top: 16px;
+	background-color: silver;
+	padding-bottom: 14px;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+}
+
+.top-bar .logo a
+{
+	text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.top-bar .navi ul
+{
+	display: flex;
+	list-style: none;
+	margin-bottom: 0px;
+	float: right;
+}
+
+.top-bar .navi li
+{
+	padding-right: 30px;
+}
+
+.top-bar .navi a
+{
+	text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+
+.top-bar .navi .active 
+{
+	color: black;
+}
+
+.top-bar .navi a:hover
+{
+	color: black;
+}
+
+.carousel .carousel-inner
+{
+	height: 100vh;
+}
